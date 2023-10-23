@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://www.forevernepal.com/uploads/images/202110/image_750x_615c276f5ff5b.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main{
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px 2px #fff;
+    -webkit-box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+
+}
+
+.main h1{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.main input{
+    font-size: 22px;
+    border-radius: 10px;
+    border: 3px solid #606001;
+    background-color: transparent;
+    padding: 5px 10px ;
+    outline: none;
+    color: white;
+    
+}
+
+.main input::placeholder{
+    color: rgb(204, 204, 204);
+}
+
+.main input:focus{
+    border: 2px solid #ccc;
+}
+
+.main button{
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 16px;
+}
+
+#wish{
+    position: absolute;
+    top: 20vmax;
+    left: 8vmax;
+    color: white;
+    font-size: 40px;
+    display: none;
+}
+
+#wish #name{
+    position: relative;
+    color: aqua;
+   
+  
+ 
+    
+}
+
