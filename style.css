@@ -8,6 +8,7 @@ html , body{
     height: 100%;
     width: 100%;
     background-image: url('https://www.forevernepal.com/uploads/images/202110/image_750x_615c276f5ff5b.jpg');
+    /* background-image: url('https://alayaholidays.com/uploads/media/Dashain%20Festival%20In%20Nepal%20Playing%20Ping%20(3)%20(1).jpg'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,37 +19,33 @@ html , body{
 
 
 .main{
-    height: 50vh;
-    width: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
+    height: 60vh;
+    width: 75vh;
+    display: grid;
+    place-items: center;
     background: rgba(0, 0, 0, 0.5);
-    border-radius: 16px;
+    border-radius: 12px;
     border: 1px solid white;
-    box-shadow: 0 0 5px 2px #fff;
+    /* box-shadow: 0 0 5px 2px #fff;
     -webkit-box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-    -moz-box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-
+    -moz-box-shadow: 5px 5px 15px rgba(0,0,0,0.5); */
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
 .main h1{
     color: white;
-    margin-bottom: 20px;
     font-size: 30px;
 }
 
 .main input{
-    font-size: 22px;
-    border-radius: 10px;
-    border: 3px solid #606001;
-    background-color: transparent;
-    padding: 5px 10px ;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 5px 25px ;
     outline: none;
     color: white;
-    
+   
 }
 
 .main input::placeholder{
@@ -60,11 +57,33 @@ html , body{
 }
 
 .main button{
+    cursor: pointer;
+    color: #fff;
     font-size: 20px;
-    padding: 5px 10px;
-    border-radius: 16px;
+    border-radius: 5px;
+    border:1px solid black;
+    position: relative;
+    height: 40px;
+    width: 120px;
+   background: transparent;
+   z-index: 1;
 }
-
+.button{
+    position: absolute;
+    background-color: rgba(250, 133, 37, 0.521);
+    border-radius: 7px;
+    top:0px;
+    left: 0px;
+    width: 120px;
+    height: 0px;
+    transition: .5s linear;
+    z-index: -1;
+}
+.main button:hover .button{
+    width: 118px;
+    height: 38px;
+    
+}
 #wish{
     position: absolute;
     top: 20vmax;
@@ -76,10 +95,13 @@ html , body{
 
 #wish #name{
     position: relative;
-    color: aqua;
-   
-  
- 
-    
-}
+    color: red;    
 
+}
+@media screen and (max-width: 600px){
+    .main{
+        height: 30vh;
+         margin: 30px;
+    }
+
+}
