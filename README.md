@@ -22,7 +22,7 @@ To view this project locally, simply follow these steps:
 2. Navigate to the project directory:
 
    ```shell
-   cd YouTube-Clone
+   cd Happy-Dashain-Tihar
    ```
 
 3. Open the `index.html` file in your web browser to see the static YouTube homepage replica.
@@ -30,6 +30,9 @@ To view this project locally, simply follow these steps:
 That's it! You can now explore the project and see the static homepage in action. 🚀
 
 ## Screenshots
+
+![image](https://github.com/manjilkoirala/Happy-Dashain-Tihar/assets/85267300/a1532c37-6f37-4244-9ff8-9259bfe6cc8b)
+![image](https://github.com/manjilkoirala/Happy-Dashain-Tihar/assets/85267300/c7e01920-abe2-43fe-abc7-9a289f95c17d)
 
 
 
