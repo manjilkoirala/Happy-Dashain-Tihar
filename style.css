@@ -4,14 +4,13 @@
   box-sizing: border-box;
   font-family: Georgia, serif;
 }
-html,
-body {
+html,body{
   height: 100%;
   width: 100%;
-  background-image: url("https://www.forevernepal.com/uploads/images/202110/image_750x_615c276f5ff5b.jpg");
-  /* background-image: url('Screenshot 2023-10-24 124938.png'); */
-  background-size: cover;
+  background-image: url('https://www.forevernepal.com/uploads/images/202110/image_750x_615c276f5ff5b.jpg');
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: grid;
   place-items: center;
 }
@@ -183,6 +182,6 @@ button span:nth-child(4) {
 @media screen and (max-width: 600px) {
   .main {
     height: 30vh;
-    margin: 30px;
+    width: 90%;
   }
 }
