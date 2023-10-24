@@ -1,17 +1,17 @@
-function wishes(){
-    let mySound = new Audio('mucic.m4a')
-     values=document.getElementById('input').value;
-    if(values.trim().length === 0){
-        alert('Enter Your Name');
-    }
-    else{
+function wishes() {
+  let mySound = new Audio("mucic.m4a");
+  values = document.getElementById("input").value;
+  if (values.trim().length === 0) {
+    alert("Enter Your Name");
+  } else {
     document.getElementById("main").style.display = "none";
-    document.getElementById('wish').style.display='block';
-    document.getElementById('name').innerText=`${values}`;
-    document.body.style.backgroundImage="url('https://alayaholidays.com/uploads/media/Dashain%20Festival%20In%20Nepal%20Playing%20Ping%20(3)%20(1).jpg')";
+    document.getElementById("wish").style.display = "block";
+    document.getElementById("name").innerText = `${values}`;
+    // document.body.style.backgroundImage="url('https://www.forevernepal.com/uploads/images/202110/image_750x_615c276f5ff5b.jpg')";
+    document.body.style.backgroundImage =
+      "url('Screenshot 2023-10-24 124938.png')";
     setTimeout(() => {
-        mySound.play();
-    }, 4000);
-    }
-
+      mySound.play();
+    }, 1000);
+  }
 }
